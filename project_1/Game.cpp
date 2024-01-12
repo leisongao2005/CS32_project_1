@@ -85,13 +85,15 @@ void Game::play()
         {
             switch (action[0])
             {
-              default:   // if bad move, nobody moves
-                cout << '\a' << endl;  // beep
-                continue;
-              case 'q':
-                return;
-              case 'h':
-                m_city->history().display();
+                default:   // if bad move, nobody moves
+                    cout << '\a' << endl;  // beep
+                    continue;
+                case 'q':
+                    return;
+                case 'h':
+                    m_city->history().display();
+                    cout << "Press enter to continue." << endl;
+                    cin.ignore(10000,'\n');
                     break;
               case 'u':
               case 'd':
