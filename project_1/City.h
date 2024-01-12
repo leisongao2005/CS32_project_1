@@ -10,6 +10,7 @@
 
 #include <stdio.h>
 #include "globals.h"
+#include "History.h"
 
 class Player;
 class Tooter;
@@ -36,6 +37,7 @@ class City
     bool addPlayer(int r, int c);
     void preachToTootersAroundPlayer();
     void moveTooters();
+    History& history();
 
   private:
     int     m_rows;
@@ -43,7 +45,7 @@ class City
     Player* m_player;
     Tooter* m_tooters[MAXTOOTERS];
     int     m_nTooters;
-
+    History m_history;
       // Helper functions
     bool isInBounds(int r, int c) const;
 };
