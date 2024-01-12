@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D77F07B02B50BB0200ECE801 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D77F07AF2B50BB0200ECE801 /* main.cpp */; };
+		D77F07B82B50BB8A00ECE801 /* Tooter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D77F07B62B50BB8A00ECE801 /* Tooter.cpp */; };
+		D77F07BB2B50C59000ECE801 /* City.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D77F07B92B50C59000ECE801 /* City.cpp */; };
+		D77F07BF2B50C6FE00ECE801 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D77F07BD2B50C6FE00ECE801 /* Player.cpp */; };
+		D77F07C12B50C8AD00ECE801 /* utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D77F07C02B50C8AD00ECE801 /* utilities.cpp */; };
+		D77F07C42B50C97100ECE801 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D77F07C22B50C97100ECE801 /* Game.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		D77F07AC2B50BB0200ECE801 /* project_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = project_1; sourceTree = BUILT_PRODUCTS_DIR; };
 		D77F07AF2B50BB0200ECE801 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D77F07B62B50BB8A00ECE801 /* Tooter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tooter.cpp; sourceTree = "<group>"; };
+		D77F07B72B50BB8A00ECE801 /* Tooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tooter.h; sourceTree = "<group>"; };
+		D77F07B92B50C59000ECE801 /* City.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = City.cpp; sourceTree = "<group>"; };
+		D77F07BA2B50C59000ECE801 /* City.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		D77F07BC2B50C62800ECE801 /* globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = globals.h; sourceTree = "<group>"; };
+		D77F07BD2B50C6FE00ECE801 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		D77F07BE2B50C6FE00ECE801 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		D77F07C02B50C8AD00ECE801 /* utilities.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = utilities.cpp; sourceTree = "<group>"; };
+		D77F07C22B50C97100ECE801 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		D77F07C32B50C97100ECE801 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +72,17 @@
 		D77F07AE2B50BB0200ECE801 /* project_1 */ = {
 			isa = PBXGroup;
 			children = (
+				D77F07B62B50BB8A00ECE801 /* Tooter.cpp */,
+				D77F07B92B50C59000ECE801 /* City.cpp */,
+				D77F07BD2B50C6FE00ECE801 /* Player.cpp */,
+				D77F07BE2B50C6FE00ECE801 /* Player.h */,
+				D77F07BA2B50C59000ECE801 /* City.h */,
+				D77F07B72B50BB8A00ECE801 /* Tooter.h */,
+				D77F07C22B50C97100ECE801 /* Game.cpp */,
+				D77F07C32B50C97100ECE801 /* Game.h */,
 				D77F07AF2B50BB0200ECE801 /* main.cpp */,
+				D77F07C02B50C8AD00ECE801 /* utilities.cpp */,
+				D77F07BC2B50C62800ECE801 /* globals.h */,
 			);
 			path = project_1;
 			sourceTree = "<group>";
@@ -119,6 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D77F07C12B50C8AD00ECE801 /* utilities.cpp in Sources */,
+				D77F07BF2B50C6FE00ECE801 /* Player.cpp in Sources */,
+				D77F07BB2B50C59000ECE801 /* City.cpp in Sources */,
+				D77F07C42B50C97100ECE801 /* Game.cpp in Sources */,
+				D77F07B82B50BB8A00ECE801 /* Tooter.cpp in Sources */,
 				D77F07B02B50BB0200ECE801 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
