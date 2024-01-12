@@ -92,6 +92,7 @@ void Game::play()
                 return;
               case 'h':
                 m_city->history().display();
+                    break;
               case 'u':
               case 'd':
               case 'l':

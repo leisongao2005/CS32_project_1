@@ -51,4 +51,5 @@ void History::display() const {
             cout << m_arr[r][c];
         cout << endl;
     }
+    cout << endl;
 }

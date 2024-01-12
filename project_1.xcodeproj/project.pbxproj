@@ -75,19 +75,19 @@
 		D77F07AE2B50BB0200ECE801 /* project_1 */ = {
 			isa = PBXGroup;
 			children = (
-				D77F07B62B50BB8A00ECE801 /* Tooter.cpp */,
-				D77F07B92B50C59000ECE801 /* City.cpp */,
-				D77F07BD2B50C6FE00ECE801 /* Player.cpp */,
-				D77F07BE2B50C6FE00ECE801 /* Player.h */,
-				D77F07BA2B50C59000ECE801 /* City.h */,
 				D77F07B72B50BB8A00ECE801 /* Tooter.h */,
-				D77F07C22B50C97100ECE801 /* Game.cpp */,
-				D77F07C32B50C97100ECE801 /* Game.h */,
-				D77F07AF2B50BB0200ECE801 /* main.cpp */,
-				D7838ACD2B50CCF300E804D0 /* History.cpp */,
+				D77F07B62B50BB8A00ECE801 /* Tooter.cpp */,
+				D77F07BE2B50C6FE00ECE801 /* Player.h */,
+				D77F07BD2B50C6FE00ECE801 /* Player.cpp */,
 				D7838ACE2B50CCF300E804D0 /* History.h */,
-				D77F07C02B50C8AD00ECE801 /* utilities.cpp */,
+				D7838ACD2B50CCF300E804D0 /* History.cpp */,
+				D77F07BA2B50C59000ECE801 /* City.h */,
+				D77F07B92B50C59000ECE801 /* City.cpp */,
+				D77F07C32B50C97100ECE801 /* Game.h */,
+				D77F07C22B50C97100ECE801 /* Game.cpp */,
 				D77F07BC2B50C62800ECE801 /* globals.h */,
+				D77F07C02B50C8AD00ECE801 /* utilities.cpp */,
+				D77F07AF2B50BB0200ECE801 /* main.cpp */,
 			);
 			path = project_1;
 			sourceTree = "<group>";

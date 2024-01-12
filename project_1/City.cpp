@@ -216,6 +216,7 @@ void City::preachToTootersAroundPlayer()
         else if (rowdiff >= -1  &&  rowdiff <= 1  &&
                  coldiff >= -1  &&  coldiff <= 1) {
             m_history.record(tp->row(), tp->col());
+            k++;
         }
         else
             k++;
